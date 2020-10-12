@@ -1,0 +1,18 @@
+{
+  "name": "aquasieve",
+  "version": "1.0.0",
+  "description": "hackathon project ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ashan.Chandrasiri",
+  "license": "ISC",
+  "dependencies": {
+    "mqtt": "^1.6.3",
+    "websocket": "^1.0.32"
+  },
+  "devDependencies": {
+    "standard": "^5.4.1"
+  }
+}
