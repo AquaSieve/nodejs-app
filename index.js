@@ -2,7 +2,9 @@ console.log("start queseive nodejs app");
 
 console.log("starting websocket client");
 
-require("./service/WebSocketClient");
+const t = require("./service/WebSocketClient");
+
+
 
 console.log("websocket started");
 
