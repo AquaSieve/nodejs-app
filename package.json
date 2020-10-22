@@ -1,18 +1,24 @@
 {
-  "name": "aquasieve",
-  "version": "1.0.0",
-  "description": "hackathon project ",
-  "main": "index.js",
+  "name": "express",
+  "version": "0.0.0",
+  "private": true,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "babel-node ./bin/www"
   },
-  "author": "Ashan.Chandrasiri",
-  "license": "ISC",
   "dependencies": {
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "express": "~4.16.1",
+    "http-errors": "~1.6.3",
+    "mongoose": "^5.10.9",
+    "morgan": "~1.9.1",
     "mqtt": "^1.6.3",
+    "pug": "2.0.0-beta11",
     "websocket": "^1.0.32"
   },
   "devDependencies": {
-    "standard": "^5.4.1"
+    "babel-cli": "^6.26.0",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-preset-env": "^1.7.0"
   }
 }
